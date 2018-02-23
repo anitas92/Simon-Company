@@ -1,5 +1,6 @@
 
-
+$(document).ready(function(){
+    
     $("p").click(function(){
         $(this).hide();
        // $(this).fadeTo(5000, 1, function(){
@@ -9,4 +10,4 @@
     //Esemeny kivaltasok
       $("p").click();
     
-
+    });
