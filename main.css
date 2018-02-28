@@ -15,7 +15,7 @@ border:2px solid rgb(182, 182, 182);
 border-radius: 10px;
 box-shadow: 5px 10px 18px #888888;
 }
-.contact-img{
+.contact-img {
     width: 10rem;
     height: 10rem;
     border-radius: 50%;
@@ -30,4 +30,21 @@ box-shadow: 5px 10px 18px #888888;
 }
 .contact-card{
     display: inline;
+}
+.preview-holder.big-image{
+    position: fixed;
+    
+    top:0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1000001;
+}
+.preview-holder.big-image img{
+    width: 280%;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    border:2px solid rgb(182, 182, 182);
+    border-radius: 10px;
+    box-shadow: 5px 10px 18px #888888;
 }
